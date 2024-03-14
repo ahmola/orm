@@ -2,10 +2,10 @@ spring:
   application:
     name: orm
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/orm
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://dpg-cnpag98l6cac73a6cong-a/practice_xj1n
     username: "park"
-    password: 1234
+    password: lfxrPoHx9z6T6qpvWmvg1g4H4sI70q9n
     initialization-mode: always
   jpa:
     hibernate:

@@ -31,7 +31,7 @@ public class UserApiController {
         return new ResponseEntity<>(userService.findById(id), HttpStatus.OK);
     }
 
-    @GetMapping("/username")
+    @GetMapping]
     public ResponseEntity<Optional<User>> findByUsername(@RequestParam(name = "username") String username){
         return new ResponseEntity<>(userService.findByUsername(username), HttpStatus.OK);
     }

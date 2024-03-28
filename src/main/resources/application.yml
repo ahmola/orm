@@ -5,7 +5,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://dpg-cnpag98l6cac73a6cong-a/practice_xj1n
     username: "park"
-    password: lfxrPoHx9z6T6qpvWmvg1g4H4sI70q9n
+    password: #
     initialization-mode: always
   jpa:
     hibernate:
